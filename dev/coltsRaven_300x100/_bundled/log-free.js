@@ -5,8 +5,8 @@ Object.defineProperty(exports, '__esModule', {
 	value: true
 });
 function start() {
-	var t1 = arguments.length <= 0 || arguments[0] === undefined ? 1.5 : arguments[0];
-	var t2 = arguments.length <= 1 || arguments[1] === undefined ? 2.5 : arguments[1];
+	var t1 = arguments.length <= 0 || arguments[0] === undefined ? 1.6 : arguments[0];
+	var t2 = arguments.length <= 1 || arguments[1] === undefined ? 2.1 : arguments[1];
 
 	var tl = new TimelineMax();
 	tl.from('.t1', .3, { opacity: 0 });

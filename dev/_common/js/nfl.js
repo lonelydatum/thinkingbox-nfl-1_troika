@@ -1,4 +1,4 @@
-function start(t1=1.5, t2=2.5) {
+function start(t1=1.6, t2=2.1) {
 	const tl = new TimelineMax()
 	tl.from('.t1', .3, {opacity:0})
 	tl.to('.t1', .3, {opacity:0}, `+=${t1}`)
