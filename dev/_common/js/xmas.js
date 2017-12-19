@@ -1,0 +1,8 @@
+function start(t1=1.6, t2=2.1) {
+	const tl = new TimelineMax()
+	tl.from('.t1', .3, {opacity:0})
+	tl.to('.t1', .3, {opacity:0}, `+=${t1}`)
+	tl.from('.t2', .3, {opacity:0})	
+}
+
+export default start
